@@ -1,0 +1,49 @@
+{%extends 'mysite/base.html'%}
+{% load static%}
+
+{% block content %}
+<div class="container" style="margin-top: 100px">
+    <div class="card-deck">
+        <div class="card">
+            <img src="{% static 'mysite/images/weather.png'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">Creating a Weather App in Django Using Python Requests.</p>
+                <p class="card-text">
+                    <small class="text-muted">Working on it.</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'mysite/images/template.png'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">This is my new start-up whose aim is to build websites.</p>
+                <p class="card-text">
+                    <small class="text-muted">Working on it.</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'mysite/images/research.png'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Research</h5>
+                <p class="card-text">This is the research section.</p>
+                <p class="card-text">
+                    <small class="text-muted">Working on it.</small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'mysite/images/blog.png'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">I'm creating multi-user blogging website where people can post there blog.</p>
+                <p class="card-text">
+                    <small class="text-muted">Working on it.</small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
